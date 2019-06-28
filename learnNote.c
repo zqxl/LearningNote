@@ -1,3 +1,7 @@
+// 保存成.c文件有助于在使用notepad++时有格式
+/*
+本地操作
+*/
 git init  	创建版本库
 
 git status 	查看状态
@@ -13,3 +17,14 @@ git reset --hard commit_id		版本回退（已经commit时。）
 git rm file						删除文件（工作区删除了file后）
 git checkout -- file			从版本库里恢复这个文件
 	
+/*
+远程仓库
+*/
+在github上创建一个 repository 后
+git remote add origin git@github.com:xxxxxxxx/xxxx.git		关联远程库
+git push -u origin master									推送到远程，同时关联本地master和远程master(以后的push和pull就简化了)
+
+/*
+分支管理
+*/
+
