@@ -32,7 +32,7 @@ git push -u origin master									推送到远程，同时关联本地master和�
 切换分支：				git checkout <name>
 创建+切换分支：			git checkout -b <name>
 合并某分支到当前分支：	git merge <name>
-删除分支：				git branch -d <name>	issue-01 fixed.fixed again.
+删除分支：				git branch -d <name>	
 
 git merge --no-ff -m "merge with no-ff" dev					合并分支时保留分支信息
 
