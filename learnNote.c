@@ -40,5 +40,17 @@ git stash				暂存工作现场
 git stash list 			查看保存的工作现场
 git stash pop			恢复工作现场
 
+git remote -v 												查看远程库信息，使用；
+															本地新建的分支如果不推送到远程，对其他人就是不可见的；
+git push origin branch-name									本地推送分支，使用，如果推送失败，先用git pull抓取远程的新提交；
+git checkout -b branch-name origin/branch-name				本地创建和远程分支对应的分支，使用，本地和远程分支的名称最好一致；
+git branch --set-upstream branch-name origin/branch-name	建立本地分支和远程分支的关联
+
+/*
+标签管理
+*/
+git tag <tagname>						用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+git tag -a <tagname> -m "blabl..."		可以指定标签信息；
+git tag									可以查看所有标签。
 
 
