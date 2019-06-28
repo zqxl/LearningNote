@@ -35,3 +35,5 @@ git push -u origin master									推送到远程，同时关联本地master和�
 删除分支：				git branch -d <name>
 
 
+测试合并是禁用 fast forward模式
+
